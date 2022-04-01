@@ -32,7 +32,7 @@
                 <a  type="button" class="btn btn-primary" href="{{ url('/mantenimiento/'.$mantenimiento->id.'/edit') }}" style="background-color: #0d6efd;">
                     editar
                 </a>
-                <input class="btn btn-outline-danger" type="submit"  onclick="return confirm('¿Quiere borrar?')"  value="Borrar">
+                <input class="btn btn-outline-danger" type="submit" accept="image/*" multiple  onclick="return confirm('¿Quiere borrar?')"  value="Borrar">
             </form>
 
 

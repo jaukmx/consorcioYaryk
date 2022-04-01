@@ -22,7 +22,7 @@
         </div>
         <div class="input-group mb-3">
 
-            <input  type="file" class=" form-control" name="imagen" id="imagen" style="width: 100%;
+            <input  type="file" accept="image/*" multiple class=" form-control" name="imagen" id="imagen" style="width: 100%;
             padding: 0.375rem 0.75rem;
             font-size: 1rem;
             font-weight: 400;
